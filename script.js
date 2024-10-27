@@ -5,7 +5,7 @@ let hora = fecha.getHours();
 
 let hora1;
 
-if (hora >= 6 && hora < 12) {
+if (hora >= 0 && hora < 12) {
     hora1 = "Buenos días";
 } else if (hora >= 12 && hora < 18) {
     hora1 = "Buenas tardes";
@@ -14,6 +14,4 @@ if (hora >= 6 && hora < 12) {
 }
 
 
-
-
-alert(hora1);
+alert(hora1) 
